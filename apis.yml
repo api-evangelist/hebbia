@@ -1,0 +1,91 @@
+aid: hebbia
+name: Hebbia
+description: Hebbia provides institutional-grade AI for finance and high-stakes enterprise work, centered on its Matrix product
+  that reasons across massive volumes of unstructured documents. The platform connects to enterprise data sources such as
+  Snowflake, AWS S3, SharePoint, Box, Dropbox, and Egnyte, and financial data providers including FactSet, S&P Capital IQ,
+  PitchBook, Guidepoint, and Thirdbridge. Hebbia is a sales-led enterprise product without a fully public developer portal;
+  API and integration access is granted to customers through their account team.
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+url: https://raw.githubusercontent.com/api-evangelist/hebbia/refs/heads/main/apis.yml
+created: '2026-05-23'
+modified: '2026-05-23'
+specificationVersion: '0.19'
+type: Index
+access: 3rd-Party
+tags:
+- AI
+- Document AI
+- Due Diligence
+- Enterprise Search
+- Financial Services
+- Generative AI
+- Investment Research
+- Knowledge
+- Matrix
+- RAG
+- Research
+- Unstructured Data
+apis:
+- aid: hebbia:hebbia-matrix
+  name: Hebbia Matrix
+  description: Matrix is Hebbia's flagship AI workspace for reasoning across unstructured enterprise documents at scale. It
+    runs spreadsheet-style queries (rows and columns) over very large document sets to extract structured answers with citations
+    from filings, transcripts, decks, expert calls, and proprietary research. Matrix is delivered as a hosted enterprise application
+    with customer-managed connectors; programmatic access is provided to customers via their Hebbia engagement.
+  humanURL: https://www.hebbia.com/
+  tags:
+  - AI
+  - Document Analysis
+  - Matrix
+  - Research
+  - Workflows
+  properties:
+  - type: Documentation
+    url: https://www.hebbia.com/
+- aid: hebbia:hebbia-connectors
+  name: Hebbia Connectors
+  description: Hebbia connects to enterprise content stores and financial data providers to make their contents searchable
+    and reasoning-ready inside Matrix. Connectors include enterprise data systems (Snowflake, AWS S3, SharePoint, Box, Dropbox,
+    Egnyte) and financial data providers (FactSet, S&P Capital IQ, PitchBook, Guidepoint, Thirdbridge), as well as public
+    sources such as earnings calls and SEC filings.
+  humanURL: https://www.hebbia.com/
+  tags:
+  - Connectors
+  - Data Sources
+  - Integrations
+  properties:
+  - type: Documentation
+    url: https://www.hebbia.com/
+common:
+- type: Website
+  url: https://www.hebbia.com/
+- type: Blog
+  url: https://www.hebbia.com/blog
+- type: Community
+  url: https://forum.hebbia.com/
+- type: LinkedIn
+  url: https://www.linkedin.com/company/hebbia/
+- type: PrivacyPolicy
+  url: https://www.hebbia.com/privacy
+- type: TermsOfService
+  url: https://www.hebbia.com/terms
+- type: Support
+  url: https://www.hebbia.com/contact
+- type: Careers
+  url: https://www.hebbia.com/careers
+integrations:
+- name: Snowflake
+- name: AWS S3
+- name: SharePoint
+- name: Box
+- name: Dropbox
+- name: Egnyte
+- name: FactSet
+- name: S&P Capital IQ
+- name: PitchBook
+- name: Guidepoint
+- name: Thirdbridge
+- name: SEC EDGAR
+maintainers:
+- FN: Kin Lane
+  email: kin@apievangelist.com
