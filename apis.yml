@@ -57,6 +57,10 @@ apis:
   - type: Documentation
     url: https://www.hebbia.com/
 common:
+- type: TrustCenter
+  url: security/hebbia-trust-center.yml
+- type: DomainSecurity
+  url: security/hebbia-domain-security.yml
 - type: Website
   url: https://www.hebbia.com/
 - type: Blog
