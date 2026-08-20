@@ -25,6 +25,19 @@ specificationVersion: '0.23'
 type: Index
 access: 3rd-Party
 tags:
+- Artificial Intelligence
+- Document AI
+- Due Diligence
+- Enterprise Search
+- Financial-Services
+- Generative AI
+- Investment Research
+- Knowledge
+- Matrix
+- RAG
+- Research
+- Unstructured Data
+tags_raw:
 - AI
 - Document AI
 - Due Diligence
@@ -46,6 +59,12 @@ apis:
     with customer-managed connectors; programmatic access is provided to customers via their Hebbia engagement.
   humanURL: https://www.hebbia.com/
   tags:
+  - Artificial Intelligence
+  - Document Analysis
+  - Matrix
+  - Research
+  - Workflows
+  tags_raw:
   - AI
   - Document Analysis
   - Matrix
@@ -62,6 +81,10 @@ apis:
     sources such as earnings calls and SEC filings.
   humanURL: https://www.hebbia.com/
   tags:
+  - Connectors
+  - Data Sources
+  - Integration
+  tags_raw:
   - Connectors
   - Data Sources
   - Integrations
