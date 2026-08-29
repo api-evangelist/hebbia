@@ -5,6 +5,17 @@ description: Hebbia provides institutional-grade AI for finance and high-stakes 
   Snowflake, AWS S3, SharePoint, Box, Dropbox, and Egnyte, and financial data providers including FactSet, S&P Capital IQ,
   PitchBook, Guidepoint, and Thirdbridge. Hebbia is a sales-led enterprise product without a fully public developer portal;
   API and integration access is granted to customers through their account team.
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: free
   onboarding: unknown
