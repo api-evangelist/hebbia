@@ -1,0 +1,30 @@
+# Front Door AI Index — hebbia — 2026-09-17
+# AI vocabulary counted on the provider's root page. Generated; do not edit.
+# `score` is null unless ownership is `own` — see front_door_ai.py.
+front_door_ai:
+  slug: hebbia
+  lexicon_version: '1.0'
+  probed_at: '2026-09-17'
+  host: www.hebbia.com
+  final_host: www.hebbia.com
+  ownership: own
+  owner: hebbia
+  shares_host_with: null
+  inherited_from: null
+  verdict: scored
+  score: 23
+  host_score: 23
+  density: 0.56
+  words: 40956
+  tiers:
+    agentic: 6
+    core: 17
+    model: 0
+  ambiguous: 10
+  top_terms:
+    AI: 17
+    agentic: 5
+    automation: 5
+    intelligence: 3
+    agent: 2
+    prompts: 1
