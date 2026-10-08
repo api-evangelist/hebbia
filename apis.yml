@@ -104,6 +104,12 @@ apis:
   - type: Documentation
     url: https://www.hebbia.com/
 common:
+- type: Plans
+  url: plans/hebbia-plans-pricing.yml
+- type: RateLimits
+  url: rate-limits/hebbia-rate-limits.yml
+- type: FinOps
+  url: finops/hebbia-finops.yml
 - type: TrustCenter
   url: security/hebbia-trust-center.yml
 - type: DomainSecurity
